@@ -153,7 +153,7 @@
 ==================================================== */
 .partyDate{
     font-family: 'Inter', sans-serif;
-    background:  linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    background:  linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.039) 100%);
     text-align: center;
     padding: 105px 0;
 }
@@ -183,4 +183,68 @@
 }
 /* ===================================================
         #party date part End
+==================================================== */
+
+/* ===================================================
+        #Best offer part start
+==================================================== */
+.bestOffer{
+    display: flex;
+}
+.bestOffer .left{
+    width: 32%;
+    padding: 110px 30px 110px 0;
+}
+.bestOffer .left h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+}
+.bestOffer .left h1{
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    color: #070211;
+    padding: 16px 0;
+}
+.bestOffer .left p{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #070211;
+    text-align: left;
+}
+.bestOffer .middle{
+    width: 36%;
+}
+.bestOffer .middle img{
+    border: 15px solid #FF0000;
+    border-radius: 50%;
+    padding: 25px;
+}
+.bestOffer .right{
+    padding: 90px 30px;
+    font-family: 'Inter', sans-serif;
+    width: 32%;
+}
+.bestOffer .right h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #FF0000;
+    margin-bottom: 20px;
+}
+.bestOffer .right p{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #070211;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+/* ===================================================
+        #Best offer part End
 ==================================================== */
