@@ -9,7 +9,7 @@
 
 .container{
     width: 1320px;
-    margin: 0 auto;
+    margin: 0 auto 120px;
    
 }
 
@@ -47,5 +47,59 @@
 }
 
 /* ===================================================
-        #Banner part Start
+        #Banner part End
    =================================================== */
+
+/* ===================================================
+        #Discount part Start
+===================================================== */
+.discountPart{
+    width: 800px;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+}
+.discountPart .discount{
+    font-size: 88px;
+    font-weight: bold;
+    color: #FF0000;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.discountPart p{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.discountPart h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #070211;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+/* ===================================================
+        #Discount part End
+==================================================== */
+
+/* ===================================================
+        #Midnight party part Start
+==================================================== */
+.midNightParty{
+    width: 100%;
+    height: 600px;
+    background: url('../resources/Vectorrr.png');
+}
+/* ===================================================
+        #Midnight party part End
+==================================================== */
+
+/* ===================================================
+        #party date part Start
+==================================================== */
+
+/* ===================================================
+        #party date part End
+==================================================== */
