@@ -128,12 +128,14 @@
     border: none;
     color: #FFFFFF;
 
+
 }
 .midNightParty .left .btn1:hover{
     background: #FFFFFF;
     border: 1px solid rgb(103, 100, 93);
     color: #000000;
     padding: 5px 10px;
+    border-radius: 5px;
    
 }
 .midNightParty .right{
@@ -149,7 +151,36 @@
 /* ===================================================
         #party date part Start
 ==================================================== */
+.partyDate{
+    font-family: 'Inter', sans-serif;
+    background:  linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    text-align: center;
+    padding: 105px 0;
+}
 
+.partyDate h2{
+    font-size: 32px;
+    line-height: 56px;
+    font-weight: 600;
+}
+
+.partyDate h2 span{
+    color: #FF0000;
+}
+.partyDate .btn2{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 16px 32px;
+    background: #FF0000;
+    border: 1px solid #FF0000;
+    border-radius: 8px;
+    transition: .5s;
+    margin-top: 64px;
+}
+.partyDate .btn2:hover{
+    background: transparent;
+    color: #FF0000;
+}
 /* ===================================================
         #party date part End
 ==================================================== */
