@@ -352,9 +352,8 @@ ul, ol{
 .bestGifts .imgPart table tr td{
    padding: 10px;
    position: relative;
-   transition: 1s;
-  
 }
+
 .bestGifts .imgPart table tr td .details{
     position: absolute;
     z-index: 1;
@@ -362,8 +361,6 @@ ul, ol{
     left: 50%;
     transform: translateX(-50%);
     display: none;
-    
-    
 }
 
 .bestGifts .imgPart table tr td .details button{
@@ -386,7 +383,6 @@ ul, ol{
 
 .bestGifts .imgPart table tr td:hover .details{
     display: block;
-    transition: .7s;
 }
 
 .bestGifts .imgPart table tr td .details h1{
