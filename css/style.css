@@ -349,30 +349,54 @@ ul, ol{
     padding-bottom: 20px;
 }
 
-.bestGifts table tr td{
-    width: 424px;
-    height: 450px;
-    border: 5px red;
-    padding: 0 15px;
+.bestGifts .imgPart table tr td{
+   padding: 10px;
+   position: relative;
+   transition: 1s;
+  
+}
+.bestGifts .imgPart table tr td .details{
+    position: absolute;
+    z-index: 1;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    
+    
 }
 
-.bestGifts table tr .img1{
-    background: url('../resources/Rectangle\ 3.png');
+.bestGifts .imgPart table tr td .details button{
+    padding: 10px 25px;
+    background: #FF0000;
+    border: 1.5px solid #FF0000;
+    margin-top: 20px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    transition: .6s;
+
 }
-.bestGifts table tr .img2{
-    background: url('../resources/Rectangle\ 4.png');
+
+.bestGifts .imgPart table tr td .details button:hover{
+    background: transparent;
+    color: #FF0000;
 }
-.bestGifts table tr .img3{
-    background: url('../resources/Rectangle\ 5.png');
+
+.bestGifts .imgPart table tr td:hover .details{
+    display: block;
+    transition: .7s;
 }
-.bestGifts table tr .img4{
-    background: url('../resources/Rectangle\ 6.png') no-repeat;
+
+.bestGifts .imgPart table tr td .details h1{
+    color: #07decf;
+    font-family: 'Merriweather', serif;
+    font-size: 38px;
+    font-weight: 900;
 }
-.bestGifts table tr .img5{
-    background: url('../resources/Rectangle\ 7.png') no-repeat;
-}
-.bestGifts table tr .img6{
-    background: url('../resources/Rectangle\ 8.png') no-repeat;
+.bestGifts .imgPart table tr td .details h1 span{
+    color: red;
 }
 
 /* ===================================================
